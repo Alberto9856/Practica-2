@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css"><!-- css Externo -->
+    <title></title>
+  </head>
+  <body>
+    <div id="register" class="form">
+      <form  action="registrado.php"  method="post">
+        <h1> Registro</h1>
+        <p>
+            <label for="usuario" class="user" >Usuario</label>
+            <input id="usuario" name="user" required="required" type="text" placeholder="Usuario" />
+        </p>
+        <p>
+            <label for="nombre" class="nombre" > Nombre</label>
+            <input id="nombre" name="nombre" required="required" type="" placeholder="nombre"/>
+        </p>
+        <p>
+            <label for="apellido" class="apellido" >Apellido</label>
+            <input id="apellido" name="apellido" required="required" type="" placeholder="apellido"/>
+        </p>
+        <p>
+            <label for="email" class="email" > Tu email</label>
+            <input id="email" name="email" required="required" type="" placeholder="ejemplo@mail.com"/>
+        </p>
+        <p>
+            <label for="password" class="pass" >Tu password </label>
+            <input id="password" name="password" required="required" type="" placeholder="eg. X8df!90EO"  title=""/>
+        </p>
+        <input type="submit" value="Registro"/>
+      </form>
+    </div>
+  </body>
+</html>

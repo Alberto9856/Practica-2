@@ -1,0 +1,41 @@
+html{
+  background-color: rgb(215, 102, 237);
+  text-align: center;
+}
+body{
+  width: 40%;
+  margin: auto;
+  color: white;
+  margin-top: 20px;
+
+}
+table{
+  border: 2px solid rgb(43, 105, 181);
+  margin: auto;
+}
+th,td{
+  font-size: 2em;
+  border: 2px solid white;
+}
+.regresar{
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  padding: 3px 10px;
+}
+.regresar:hover{
+  color:white;
+  text-decoration:none;
+}
+
+/* REGISTRO */
+
+div form{
+  border: 1px solid black;
+
+}
+div#register{
+  width: 50%;
+  background: rgb(103, 94, 247);
+}
